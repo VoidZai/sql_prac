@@ -1,0 +1,12 @@
+-- use startersql;
+
+-- -- select * from users;
+-- -- select count(*) from users where gender= 'Male';
+-- -- select min(salary) as min_salary, max(salary) as max_salary from users;
+-- -- select sum(salary) as total_salary from users;
+-- -- select avg(salary) as avg_salary from users;
+-- -- select gender, avg(salary) as avg_salary from users group by gender;
+-- -- select name, length(name) as name_legth from users;
+-- select name, length(name) as naem_size, lower(name) as lowercase, concat(lower(name), '6969') as username, now() as time from users;
+-- select name, length(name) as naem_len, lower(name) as lower, concat(lower(name), '8989') as username, year(date_of_birth) as yob, day(date_of_birth) as dayOb from users;
+-- select name, datediff(curdate(), date_of_birth) as days from users;
